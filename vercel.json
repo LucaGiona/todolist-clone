@@ -1,0 +1,12 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "env": {
+    "DATABASE_URL": "@database-url",
+    "NEON_AUTH_BASE_URL": "@neon-auth-base-url",
+    "NEXT_PUBLIC_NEON_AUTH_URL": "@neon-auth-base-url",
+    "NEON_AUTH_COOKIE_SECRET": "@neon-auth-cookie-secret"
+  }
+}
